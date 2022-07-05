@@ -33,6 +33,7 @@ public void basePageNavigation(String username,String password,String text) thro
 {
 driver=	initializeDriver();
 log.info(text);
+System.out.println("text");
 //driver.get(prop.getProperty("url"));
 driver.get("http://www.qaclickacademy.com/");
 //driver.get(prop.getProperty("browser"));
